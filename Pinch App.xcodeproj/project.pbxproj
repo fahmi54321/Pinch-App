@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802B86B42A99D649005A296C /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B86B32A99D649005A296C /* PageModel.swift */; };
+		802B86B62A99D6BD005A296C /* PageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802B86B52A99D6BD005A296C /* PageData.swift */; };
+		80629D0D2A9500D6009D32D1 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80629D0C2A9500D6009D32D1 /* ControlImageView.swift */; };
+		809A9FFE2A91F99100C61B96 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809A9FFD2A91F99100C61B96 /* InfoPanelView.swift */; };
 		80B912D82A91E800005EB0FF /* Pinch_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B912D72A91E800005EB0FF /* Pinch_AppApp.swift */; };
 		80B912DA2A91E800005EB0FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B912D92A91E800005EB0FF /* ContentView.swift */; };
 		80B912DC2A91E802005EB0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B912DB2A91E802005EB0FF /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		802B86B32A99D649005A296C /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		802B86B52A99D6BD005A296C /* PageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageData.swift; sourceTree = "<group>"; };
+		80629D0C2A9500D6009D32D1 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
+		809A9FFD2A91F99100C61B96 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
 		80B912D42A91E800005EB0FF /* Pinch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pinch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B912D72A91E800005EB0FF /* Pinch_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinch_AppApp.swift; sourceTree = "<group>"; };
 		80B912D92A91E800005EB0FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		809A9FF92A91EC8400C61B96 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				80B912D92A91E800005EB0FF /* ContentView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		809A9FFA2A91EC9100C61B96 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				809A9FFD2A91F99100C61B96 /* InfoPanelView.swift */,
+				80629D0C2A9500D6009D32D1 /* ControlImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		809A9FFB2A91EC9A00C61B96 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				802B86B32A99D649005A296C /* PageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		809A9FFC2A91ECA400C61B96 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				802B86B52A99D6BD005A296C /* PageData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		80B912CB2A91E800005EB0FF = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +92,11 @@
 		80B912D62A91E800005EB0FF /* Pinch App */ = {
 			isa = PBXGroup;
 			children = (
+				809A9FFC2A91ECA400C61B96 /* Data */,
+				809A9FFB2A91EC9A00C61B96 /* Model */,
+				809A9FFA2A91EC9100C61B96 /* View */,
 				80B912D72A91E800005EB0FF /* Pinch_AppApp.swift */,
-				80B912D92A91E800005EB0FF /* ContentView.swift */,
+				809A9FF92A91EC8400C61B96 /* Screen */,
 				80B912DB2A91E802005EB0FF /* Assets.xcassets */,
 				80B912DD2A91E802005EB0FF /* Preview Content */,
 			);
@@ -137,8 +181,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80629D0D2A9500D6009D32D1 /* ControlImageView.swift in Sources */,
+				802B86B42A99D649005A296C /* PageModel.swift in Sources */,
 				80B912DA2A91E800005EB0FF /* ContentView.swift in Sources */,
 				80B912D82A91E800005EB0FF /* Pinch_AppApp.swift in Sources */,
+				802B86B62A99D6BD005A296C /* PageData.swift in Sources */,
+				809A9FFE2A91F99100C61B96 /* InfoPanelView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
